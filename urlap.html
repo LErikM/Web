@@ -1,6 +1,31 @@
 <!DOCTYPE html>
 <html lang="hu">
 <head>
+
+
+    <style>
+        .vertical-menu {
+          width: 200px;
+        }
+        
+        .vertical-menu a {
+          background-color: #eee;
+          color: black;
+          display: block;
+          padding: 12px;
+          text-decoration: none;
+        }
+        
+        .vertical-menu a:hover {
+          background-color: #ccc;
+        }
+        
+        .vertical-menu a.active {
+          background-color: #000000;
+          color: white;
+        }
+        </style>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +33,17 @@
 </head>
 <body><h2>születési dátumod</h2>
 
-    <p>Főoldal: <a href="index.html">ITT</a></p>
+    
+<h1>Vertical Menu</h1>
+
+<div class="vertical-menu">
+    <a href="index.html" class="active">Főoldal</a>
+    <a href="keplink.html">Kép + link</a>
+    <a href="lista.html">Lista</a>
+    <a href="orarend.html">Órarend</a>
+    <a href="urlap.html">Ürlap</a>
+  </div>
+
 
     <p><input type='date'></p>
     
