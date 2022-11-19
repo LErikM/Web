@@ -37,3 +37,50 @@ border-collapse: collapse;
 float: left;
 background-color: #111;
 }
+
+.b1 {
+  border: 1px dotted black;
+  width: 200px;
+  height: 200px;
+  float: left;
+  
+  text-align: center;
+ 
+
+}
+.b2 {
+
+  border: 2px dotted rgb(0, 0, 0);
+  width: 200px;
+  height: 200px;
+  float: left;
+  background-image: ;
+  text-align: center;
+  clear:both
+
+}   
+
+.b4{
+  border: 1px dotted rgb(0, 0, 0);
+  width: 200px;
+  height: 200px;
+  float: left;
+ 
+  text-align: center;
+ 
+}
+
+.b3 {
+
+  border: 1px dotted rgb(0, 0, 0);
+  width: 200px;
+  height: 200px;
+  float: left;
+ 
+  text-align: center;
+
+}
+.b1:hover{
+transform: scale(1.1);
+
+}
