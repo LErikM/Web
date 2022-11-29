@@ -85,3 +85,10 @@ text-align: center;
 .b2:hover{transform: scale(1.1);}
 .b3:hover{transform: scale(1.1);}
 .b4:hover{transform: scale(1.1);}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: DarkSalmon;
+  color: white;
+}
